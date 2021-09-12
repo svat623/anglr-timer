@@ -1,0 +1,21 @@
+<div class="component">
+    <div class="outContainer">
+        {{tmstate.s | date:'mm:ss'}}<span>{{tmstate.s | date:'SS'}}</span>
+    </div>
+    <div class="term">
+        <table>
+            <tr>
+                <td>
+                    <button #wait [disabled]="tmstate.isWait">Wait</button>
+                </td>
+                <td>
+                    <button #start>{{ (tmstate.isStop||tmstate.isWait) ? 'Start' : 'Stop'}}</button>
+                </td>
+                <td>
+                    <button #reset>Reset</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+</div>

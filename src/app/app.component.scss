@@ -1,0 +1,32 @@
+.component {
+	display:flex;
+	flex-direction: column;
+	text-align: center;
+	background-color: #303841;
+	padding: 50px 5px;	
+}
+.outContainer {
+		margin: auto;
+		height: 1.2em;
+		width: 45%;
+		font-size: xxx-large;
+		background-color: white;
+		span {
+			font-size: 1rem;
+			margin-left: 5px;
+		}
+}
+.term {
+	margin-top: 30px;
+	table {
+		margin: auto;
+		width: 44%;
+	}
+	button {		
+		font-weight: 700;
+	}
+	button:hover {		
+		text-decoration: underline;
+		font-style: italic;
+	}
+}
